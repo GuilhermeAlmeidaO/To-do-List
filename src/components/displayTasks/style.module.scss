@@ -1,0 +1,42 @@
+.container {
+    color: var(--color-title);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .toDoContainer,
+    .doneContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .cardTask {
+            display: flex;
+            justify-content: space-between;
+            color: var(--color-1);
+            background-color: var(--color-bg-2);
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            .actions {
+                display: flex;
+                gap: 20px;
+
+                i:hover {
+                    color: var(--color-1-hover);
+                }
+            }
+        }
+    }
+
+    .doneContainer {
+        .cardTask {
+            .title {
+                color: var(--color-done);
+                text-decoration: line-through;
+            }
+        }
+    }
+}

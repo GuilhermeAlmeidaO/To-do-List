@@ -1,0 +1,32 @@
+.container{
+    color: var(--color-title);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+
+    .input{
+        width: 90%;
+        background-color: transparent;
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        outline: none;
+        padding: 10px;
+        color: var(--color-title);
+        font-size: 1rem;
+    }
+
+    .submit{
+        color: var(--color-title);
+        background-color: var(--color-1);
+        border: 0;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .submit:hover{
+        background-color: var(--color-1-hover);
+    }
+}

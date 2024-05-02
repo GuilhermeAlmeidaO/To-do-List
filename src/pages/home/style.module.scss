@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        width: 40%;
+
+        @media (max-width: 425px) {
+            width: 90%;
+        }
+    }
+}
