@@ -16,6 +16,6 @@
 ![todolist](https://github.com/user-attachments/assets/64de0705-4acc-4186-ba1f-494c54ed4b89)
 
 
-### Autores:
+### Author:
 
 - [@GuilhermeAlmeidaO](https://www.github.com/guilhermealmeidao)
