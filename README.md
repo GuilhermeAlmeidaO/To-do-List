@@ -4,7 +4,7 @@
 ####    A to-do list to help you manage you day dutys saved on you localstorage
 
 - #### This app was made using:
-    ![Logo](https://skillicons.dev/icons?i=react,typescript,sass)
+![Logo](https://skillicons.dev/icons?i=react,typescript,sass)
 
 
 ### Ideia for this app:
