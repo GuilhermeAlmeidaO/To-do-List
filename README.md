@@ -13,10 +13,9 @@
 
 ### Screenshots:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![todolist](https://github.com/user-attachments/assets/64de0705-4acc-4186-ba1f-494c54ed4b89)
 
 
 ### Autores:
 
 - [@GuilhermeAlmeidaO](https://www.github.com/guilhermealmeidao)
-
