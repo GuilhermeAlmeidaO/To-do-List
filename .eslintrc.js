@@ -36,10 +36,7 @@ module.exports = {
 			"error",
 			"tab"
 		],
-		"linebreak-style": [
-			"error",
-			"windows"
-		],
+		"linebreak-style": [false],
 		"quotes": [
 			"error",
 			"double"
