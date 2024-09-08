@@ -1,0 +1,74 @@
+.buttonShowModal {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.buttonShowModal:hover{
+    opacity: 0.75;
+}
+
+.modal {
+    color: #fff;
+
+    .modalHeader {
+        background-color: var(--color-bg-2);
+        border: 0;
+
+        .modalTitle{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .modalBody {
+        background-color: var(--color-bg-2);
+        padding-bottom: 0;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+            .input, .textarea{
+                background-color: transparent;
+                border: 1px solid var(--color-1);
+                color: #fff;
+                border-radius: 5px;
+                padding: 10px;
+                outline: none;
+            }
+
+            .textarea{
+                min-height: 10rem;
+                max-height: 20rem;
+            }
+
+            .buttonSave {
+                background-color: var(--color-1);
+                border: 0;
+                
+                &:hover{
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+
+    .modalFooter {
+        border: 0;   
+        background-color: var(--color-bg-2);
+        padding-top: 0;
+
+        .buttonClose {
+            color: var(--color-1);
+            background-color: transparent;
+            border: 1px solid var(--color-border);
+            width: 100%;
+            
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}

@@ -19,13 +19,25 @@
             padding: 20px;
             border-radius: 10px;
             cursor: pointer;
+            gap: 20px;
 
             .actions {
+                position: relative;
                 display: flex;
-                gap: 20px;
+                gap: 15px;
 
                 i:hover {
                     color: var(--color-1-hover);
+                }
+            }
+
+            @media (max-width: 640px) {
+                flex-direction: column;
+                word-wrap: break-word;
+                
+                .actions{
+                    width: 100%;
+                    justify-content: end;
                 }
             }
         }

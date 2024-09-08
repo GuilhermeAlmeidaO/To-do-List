@@ -9,10 +9,11 @@
         align-items: center;
         flex-direction: column;
         gap: 30px;
-        width: 40%;
+        min-width: 50%;
 
-        @media (max-width: 425px) {
-            width: 90%;
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 0px 10px;
         }
     }
 }
